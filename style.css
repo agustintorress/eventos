@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    padding: 5%;
+}
+
+.boton {
+    color: white;
+    background-color: greenyellow;
+    padding: 1rem;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+.boton:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.texto {
+    margin-top: 2rem;
+}
+
+img {
+    margin-top: 2rem;
+    width: 40%;
+}
+
+.inputContainer {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.inputContainer > input {
+    width: 40%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-weight: bold;
+}
