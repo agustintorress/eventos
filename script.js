@@ -12,11 +12,13 @@ texto.addEventListener("copy", () => {
     alert("Perdon? Me estas copiando? ProfeeEeEe, samu se esta copiando")
 })
 
-imagen.addEventListener("drag", () => {
+imagen.addEventListener("dragstart", (event) => {
     alert("Te dije un poquito nomas, atrevido!")
+    event.preventDefault()
 })
 
 input.addEventListener("keydown", () => {
     let inputTexto = document.getElementById("inputText")
     inputTexto.innerText = input.value
 })
+
